@@ -1,0 +1,16 @@
+{
+  "name": "c55-core-week-5",
+  "version": "1.0.0",
+  "description": "HackYourFuture Core program week 5 assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
