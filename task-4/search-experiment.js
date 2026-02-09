@@ -62,3 +62,4 @@ console.timeEnd("Binary Search 1M");
 console.time("Binary Search 10M");
 binarySearch(generateBigArray(10000000), 8000657);
 console.timeEnd("Binary Search 10M");
+
