@@ -7,6 +7,6 @@ function generateBigArray(size) {
     array[i] = i;
   }
   return array;
-};
+}
 
 export default generateBigArray;
