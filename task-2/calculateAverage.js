@@ -18,3 +18,5 @@ export function calculateAverage(numbers) {
 
   return sum / numbers.length;
 }
+
+
