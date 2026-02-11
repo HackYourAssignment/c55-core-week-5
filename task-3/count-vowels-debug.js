@@ -1,13 +1,14 @@
 function countVowels(text) {
   let count = 0;
 
-  for (let i = 0; i <= text.length; i++) {
+  for (let i = 0; i < text.length; i++) {
+    let char = text[i].toLowerCase();
     if (
-      text[i] === "a" ||
-      text[i] === "e" ||
-      text[i] === "i" ||
-      text[i] === "o" ||
-      text[i] === "u"
+      char === "a" ||
+      char === "e" ||
+      char === "i" ||
+      char === "o" ||
+      char === "u"
     ) {
       count++;
     }
@@ -15,3 +16,5 @@ function countVowels(text) {
 
   return count;
 }
+
+console.log(countVowels("hello"));
