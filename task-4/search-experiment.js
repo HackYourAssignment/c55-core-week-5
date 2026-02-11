@@ -2,7 +2,9 @@
 // Use generateBigArray to create a big array numbers.
 // Example: generateBigArray(1000000) will create an array of 1 million numbers.
 
-import generateBigArray from "./bigArray";
+import generateBigArray from "./bigArray.js";
+
+//binary search
 
 function binary_search(array, target) {
   let left = 0;
@@ -21,8 +23,9 @@ function binary_search(array, target) {
   }
   return "unsuccessful";
 }
+
+// linear search
 function linear_search(array, target) {
-  // for i = 0 to array.length - 1 do
   for (let i = 0; i <= array.length - 1; i = i + 1) {
     if (array[i] === target) {
       return i;
