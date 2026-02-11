@@ -21,3 +21,10 @@ describe('calculateAverage checks', () => {
     expect(calculateAverage("hello")).toBe(null);
     expect(calculateAverage(100)).toBe(null);
   });
+
+  test('list with non number value → should give null', () => {
+    expect(calculateAverage([1, 2, "hello"])).toBe(null);
+    expect(calculateAverage([1, true, 3])).toBe(null);
+  });
+
+});
