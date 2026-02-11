@@ -1,7 +1,7 @@
 function countVowels(text) {
   let count = 0;
-
-  for (let i = 0; i <= text.length; i++) {
+  text = text.toLowerCase();
+  for (let i = 0; i < text.length; i++) {
     if (
       text[i] === "a" ||
       text[i] === "e" ||
@@ -15,3 +15,5 @@ function countVowels(text) {
 
   return count;
 }
+//countVowels("hello");
+countVowels("Apple");
