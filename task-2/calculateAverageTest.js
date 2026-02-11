@@ -15,3 +15,9 @@ describe('calculateAverage checks', () => {
     test('empty list → should give null', () => {
     expect(calculateAverage([])).toBe(null);
   });
+
+   test('not a list at all → should give null', () => {
+    expect(calculateAverage(null)).toBe(null);
+    expect(calculateAverage("hello")).toBe(null);
+    expect(calculateAverage(100)).toBe(null);
+  });
