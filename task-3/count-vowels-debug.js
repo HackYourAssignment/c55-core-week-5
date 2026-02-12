@@ -1,7 +1,7 @@
 function countVowels(text) {
   let count = 0;
 
-  for (let i = 0; i <= text.length; i++) {
+  for (let i = 0; i < text.length; i++) {
     if (
       text[i] === "a" ||
       text[i] === "e" ||
@@ -15,3 +15,7 @@ function countVowels(text) {
 
   return count;
 }
+console.log(countVowels("hello")); // returns 2
+console.log(countVowels("javascript")); // returns 3
+console.log(countVowels("")); // returns 0
+console.log(countVowels("Apple")); // returns 1
